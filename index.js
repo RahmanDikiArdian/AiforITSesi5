@@ -74,3 +74,9 @@ app.post('/generate-text',async(req,res)=>{
 // }
 
 // await main();
+// panggil si app-nya di sini
+const port = 3000;
+
+app.listen(port, () => {
+    console.log("I LOVE YOU", port);
+});
