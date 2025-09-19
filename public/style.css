@@ -49,6 +49,11 @@ h1 {
   text-align: left;
 }
 
+.message.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
 form {
   display: flex;
   gap: 10px;
